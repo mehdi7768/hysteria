@@ -1,0 +1,14 @@
+{
+  "listen": ":8080",
+  "protocol": "udp",
+  "auth": {
+    "type": "string",
+    "string": "mehdi123"
+  },
+  "alpn": "hysteria",
+  "up_mbps": 100,
+  "down_mbps": 500,
+  "udp": {
+    "hop_interval": "30s"
+  }
+}
